@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.background_top{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding: 15px 48px;
+}
+.background_top h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80px;
+    color: white;
+    font-weight: 300;
+    line-height: 100vh;
+}
+.background_top h1 span{
+    font-style: italic;
+}
+.flexing{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    height: 12px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.wrapper{
+    max-width: 769px;
+    margin: auto;
+}
+.who_we_are{
+    text-align: center;
+    padding: 80px 15px 90px;
+}
+.who_we_are h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #d4af37;
+    font-size: 13px;
+    line-height: 33px;
+    text-transform: uppercase;
+}
+.who_we_are h2{
+    color: #747a7f;
+    font-size: 44px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 87px;
+}
+.who_we_are p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #021725;
+    font-size: 18px;
+    line-height: 32px;
+}
+.who_we_are a{
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 164px;
+    line-height: 56px;
+    padding: 0 50px;
+    border: 1px solid black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #021725;
+}
+.who_we_are a:hover{
+    background-color: #aeb2b6;
+}
