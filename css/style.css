@@ -16,7 +16,7 @@
     font-size: 80px;
     color: white;
     font-weight: 300;
-    line-height: 100vh;
+    margin-top: 20%;
 }
 .background_top h1 span{
     font-style: italic;
@@ -38,7 +38,7 @@
     text-align: center;
     padding: 80px 15px 90px;
 }
-.who_we_are h3{
+.header3{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     color: #d4af37;
@@ -46,14 +46,14 @@
     line-height: 33px;
     text-transform: uppercase;
 }
-.who_we_are h2{
+.header2{
     color: #747a7f;
     font-size: 44px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     line-height: 87px;
 }
-.who_we_are p{
+.paragraph{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #021725;
@@ -74,4 +74,44 @@
 }
 .who_we_are a:hover{
     background-color: #aeb2b6;
+}
+.pics div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pics div img{
+    width: 25%;
+}
+.devs{
+    padding: 161px 0 164px;
+    text-align: center;
+}
+.flexing div{
+    background-color: #f9f9f9;
+    padding-bottom: 50px;
+    width: 247px;
+}
+.devs2{
+    margin-top: 50px;
+    text-align: left;
+}
+.devs2 img{
+    width: 247px;
+    height: 192px;
+}
+.devs__name{
+    color: #71777c;
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 38px;
+}
+.devs__desc{
+    color: #021725;
+    font-size: 13px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.devs2 p{
+    padding: 0 18px;
 }
