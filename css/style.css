@@ -399,3 +399,11 @@ footer a {
     background-color: #efefef;
     transition: 0.2s;
 }
+.background_top4{
+    background-image: url('../images/bg4.jpg');
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 15px 48px;
+    height: 398px;
+}
