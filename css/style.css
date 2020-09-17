@@ -440,6 +440,7 @@ footer a {
 .block1 {
     width: 40%;
     background-color: #d3b000;
+    border-right: 6px solid white;
 }
 
 .block2 {
@@ -455,6 +456,7 @@ footer a {
 .block4 {
     width: 40%;
     background-color: #212121;
+    border-left: 6px solid white;
 }
 
 .bold {
@@ -485,7 +487,8 @@ footer a {
     font-size: 20px;
     line-height: 30px;
 }
-.background_top5{
+
+.background_top5 {
     background-image: url('../images/bg5.jpg');
     background-size: cover;
     width: 100%;
@@ -493,13 +496,22 @@ footer a {
     padding: 15px 48px;
     height: 398px;
 }
-.work_container{
+
+.work_container {
     text-align: center;
     padding-top: 128px;
 }
-.work_container .header2{
+
+.work_container .header2 {
     color: #021725
 }
-.work_pics{
+
+.work_pics {
     margin: 84px 0 5px;
 }
+.background_top6 {
+    background-image: url('../images/bg6.jpg');
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding: 15px 48px;
