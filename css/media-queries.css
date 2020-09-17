@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 992px) {
+
+}
+@media only screen and (max-width: 767px) {
+    .background_top{
+        background-image: url('../images/bg1mobile.jpg');
+        padding: inherit;
+    }
+    .nav{
+        background-color: #273137;
+        opacity: 50%;
+    }
+    .logo{
+        margin: 16px 25px;
+        opacity: 100%;
+    }
+
+}
+@media only screen and (max-width: 420px) {
+
+}
+@media only screen and (max-width: 375px) {
+
+}
+@media only screen and (max-width: 360px) {
+
+}
+@media only screen and (max-width: 320px) {
+
+}

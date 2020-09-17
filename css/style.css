@@ -30,7 +30,12 @@
     justify-content: space-between;
 }
 
-.menu {
+.menu{
+    height: 12px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.menuicon{
     height: 12px;
     display: inline-block;
     margin-top: 10px;
