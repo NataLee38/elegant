@@ -485,3 +485,21 @@ footer a {
     font-size: 20px;
     line-height: 30px;
 }
+.background_top5{
+    background-image: url('../images/bg5.jpg');
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 15px 48px;
+    height: 398px;
+}
+.work_container{
+    text-align: center;
+    padding-top: 128px;
+}
+.work_container .header2{
+    color: #021725
+}
+.work_pics{
+    margin: 84px 0 5px;
+}
