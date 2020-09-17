@@ -30,12 +30,13 @@
     justify-content: space-between;
 }
 
-.menu{
+.menu {
     height: 12px;
     display: inline-block;
     margin-top: 10px;
 }
-.menuicon{
+
+.menuicon {
     height: 12px;
     display: inline-block;
     margin-top: 10px;
@@ -80,7 +81,8 @@
     line-height: 32px;
     margin-bottom: 50px;
 }
-.button{
+
+.button {
     display: inline-block;
     line-height: 56px;
     padding: 0 50px;
@@ -301,7 +303,8 @@ footer a {
     height: 1px;
     margin: 7px 10px;
 }
-.background_top3{
+
+.background_top3 {
     background-image: url('../images/bg3.jpg');
     background-size: cover;
     width: 100%;
@@ -309,40 +312,48 @@ footer a {
     padding: 15px 48px;
     height: 398px;
 }
-.main_block{
+
+.main_block {
     padding: 79px 0;
 }
-.main_block_inner{
+
+.main_block_inner {
     background-color: #f9f9f9;
     max-width: 1150px;
     margin: auto;
     padding: 64px;
     text-align: center;
 }
-.left_part{
+
+.left_part {
     width: 65%;
     text-align: left;
 }
-.right_part{
+
+.right_part {
     width: 35%;
     padding-left: 54px;
     text-align: left;
 }
-.left_part__block{
+
+.left_part__block {
     padding: 32px;
     background-color: white;
 }
-.left_part__block_upper{
+
+.left_part__block_upper {
     margin-bottom: 55px;
 }
-.left_part__block h1{
+
+.left_part__block h1 {
     color: black;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 30px;
     margin-top: 33px;
 }
-.left_part__block time{
+
+.left_part__block time {
     color: #d3b000;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -350,7 +361,8 @@ footer a {
     margin-top: 30px;
     display: inline-block;
 }
-.left_part__block p{
+
+.left_part__block p {
     font-family: 'Cardo', serif;
     color: #021725;
     font-size: 16px;
@@ -359,7 +371,7 @@ footer a {
     margin-bottom: 67px;
 }
 
-.right_part h2{
+.right_part h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 23px;
@@ -367,7 +379,8 @@ footer a {
     border-bottom: 3px solid #d3b000;
     padding-bottom: 18px;
 }
-.right_part ul{
+
+.right_part ul {
     list-style: none;
     margin: 37px 0 60px;
     color: #021725;
@@ -376,13 +389,16 @@ footer a {
     font-style: italic;
     line-height: 25px;
 }
-.img_projects{
+
+.img_projects {
     margin-top: 32px;
 }
-.img_projects img{
+
+.img_projects img {
     width: 100%;
 }
-.button2{
+
+.button2 {
     display: inline-block;
     line-height: 47px;
     padding: 0 50px;
@@ -392,18 +408,80 @@ footer a {
     font-size: 16px;
     color: #021725;
 }
-.main_block2{
+
+.main_block2 {
     margin-bottom: 63px;
 }
+
 .button2:hover {
     background-color: #efefef;
     transition: 0.2s;
 }
-.background_top4{
+
+.background_top4 {
     background-image: url('../images/bg4.jpg');
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
     padding: 15px 48px;
     height: 398px;
+}
+
+.contact_us {
+    padding: 125px 0 85px;
+    text-align: center;
+}
+
+.contact_us__container {
+    text-align: left;
+    margin-bottom: 77px;
+}
+
+.block1 {
+    width: 40%;
+    background-color: #d3b000;
+}
+
+.block2 {
+    width: 60%;
+}
+
+.block3 {
+    width: 60%;
+    background-color: #f9f9f9;
+    padding: 46px;
+}
+
+.block4 {
+    width: 40%;
+    background-color: #212121;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.contact_us__paragraph {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    line-height: 32px;
+    color: white;
+    margin: 32px;
+}
+
+.contact_us__paragraph:before {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 31px;
+    background-color: white;
+    margin-bottom: 46px;
+}
+
+.block3 p {
+    color: #323d43;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
 }
