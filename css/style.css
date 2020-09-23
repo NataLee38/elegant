@@ -31,6 +31,13 @@ header{
     font-weight: 300;
 }
 
+.h1_haloa{
+    display: none;
+}
+
+.phone{
+    display: none;
+}
 .background_top h1 span {
     font-style: italic;
 }
@@ -115,7 +122,7 @@ header{
     text-align: center;
 }
 
-.devs2 div {
+.devs2__container{
     background-color: #f9f9f9;
     padding-bottom: 50px;
     width: 247px;
@@ -127,8 +134,7 @@ header{
 }
 
 .devs2 img {
-    width: 247px;
-    height: 192px;
+    width: 100%;
 }
 
 .devs__name {
@@ -153,6 +159,10 @@ header{
 .blog {
     padding: 164px 0 0;
     text-align: center;
+}
+
+.lastpost img{
+    width: 100%;
 }
 
 .blog time {
@@ -193,6 +203,10 @@ header{
     margin-top: 84px !important;
 }
 
+.map{
+    width: 100%;
+    height: 294px;
+}
 .contacts {
     padding-top: 162px;
     text-align: center;
@@ -243,6 +257,7 @@ footer p {
     color: #505d68;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    font-size: 16px;
 }
 
 footer a {
