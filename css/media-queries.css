@@ -19,6 +19,10 @@
         height: 0;
     }
 
+    .background_top4{
+        height: 0;
+    }
+
     header {
         background-color: rgba(42, 53, 59, 0.5);
         top: 0;
@@ -179,6 +183,20 @@
         width: 90%;
         margin: auto;
         padding-bottom: 45px;
+    }
+
+    .contact_us__container .flexing{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block1, .block2, .block3, .block4{
+        width: 100%;
+        border: none;
+    }
+
+    .block1{
+        padding-bottom: 32px;
     }
 
 }
