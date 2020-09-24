@@ -27,6 +27,10 @@
         background-image: url('../images/bg5mobile.jpg');
     }
 
+    .background_top6{
+        background-image: url('../images/bg6mobile.jpg');
+    }
+
     header {
         background-color: rgba(42, 53, 59, 0.5);
         top: 0;
@@ -137,7 +141,7 @@
         max-width: 767px;
     }
 
-    services__inner__block ul{
+    .services__inner__block ul{
         max-width: 767px;
     }
 
@@ -201,6 +205,30 @@
 
     .block1{
         padding-bottom: 32px;
+    }
+
+    .social_icons a{
+        display: none;
+    }
+
+    .nora__container{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .nora_left, .nora_right{
+        width: 100%;
+    }
+
+    .nora{
+        padding: 84px 0 30px;
+    }
+
+    .social_icons{
+        padding: 0;
     }
 
 }
