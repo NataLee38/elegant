@@ -330,7 +330,6 @@ footer a {
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
-    padding: 15px 48px;
     height: 398px;
 }
 
@@ -349,6 +348,10 @@ footer a {
 .left_part {
     width: 65%;
     text-align: left;
+}
+
+.left_part img{
+    width: 100%;
 }
 
 .right_part {
