@@ -588,35 +588,26 @@ footer a {
     height: 418px;
 }
 
-.owl-dot{
+.owl-dots{
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.owl-dot span{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    display: block;
     background-color: black!important;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
-.owl-dot.active{
+.owl-dot.active span{
     width: 30px;
     height: 30px;
-}
-
-.owl-dot:first-of-type{
-    position: absolute;
-    bottom: 40px;
-    left: 300px;
-}
-
-.owl-dot:nth-child(2){
-    position: absolute;
-    bottom: 40px;
-    left: 340px;
-}
-
-.owl-dot:last-of-type{
-    position: absolute;
-    bottom: 40px;
-    left: 380px;
 }
 
 .mb-19 {
