@@ -649,11 +649,84 @@ footer a {
     background-color: black;
 }
 
-#dialog{
+.ui-dialog{
     width: 100%!important;
-    max-width: 700px!important;
+    max-width: 750px!important;
+    border: none!important;
+    border-radius: 0 0 10px 10px;
+    padding: 0;
+    background-color: #fbfbfb;
+    text-align: center;
 }
 
 #dialog input{
     display: inline-block;
+    height: 59px;
+    border: 1px solid #d3d3d3;
+    width: 100%;
+}
+
+#dialog button{
+    display: block;
+}
+
+.ui-dialog .ui-dialog-titlebar{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    padding: 38px 0 38px 50px;
+}
+
+.ui-button{
+    display: none;
+}
+
+#dialog label{
+    color: #363636;
+    text-transform: uppercase;
+    width: 180px;
+    text-align: center;
+}
+
+.form_wrapper{
+    max-width: 565px;
+    margin: auto;
+}
+
+.email{
+    margin: 40px 0 40px;
+}
+
+#dialog button{
+    width: 90%;
+    margin-left: 5%;
+    display: inline-block;
+    padding: 20px 0;
+    border: none;
+    background-color: #bdbdbd;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+#dialog p{
+    margin: 40px 0;
+    font-size: 24px;
+}
+
+#dialog a{
+    width: 90%;
+    margin-left: 5%;
+    background-color: #4c6cb1;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    padding: 20px 0;
+    display: inline-block;
+    margin-bottom: 167px;
+    border-radius: 3px;
+    text-transform: uppercase;
 }
