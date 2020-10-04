@@ -17,34 +17,39 @@
 <div id="dialog" title="FORGOT YOUR PASSWORD?">
     <div class="form_wrapper">
         <form method="post" action="">
-        <div class="flexing email">
-            <label for="email">ENTER YOUR <br>EMAIL</label>
-        <input type="email" name="email" id="email">
-        </div>
-        <button type="reset">RESET PASSWORD</button>
-        <p>OR</p>
-        <a href="#"> <span>f</span> Log In Using Facebook</a>
-    </form>
+            <div class="flexing email">
+                <label for="email">ENTER YOUR <br>EMAIL</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <button type="reset">RESET PASSWORD</button>
+            <p>OR</p>
+            <a href="#"> <span>f</span> Log In Using Facebook</a>
+        </form>
     </div>
 </div>
 
 <header>
     <div class="wrapper2 flexing">
         <a href="/index.html" class="logo"><img src="images/logo.png" alt=""></a>
-        <nav>
-            <div class="menu-btn">
-                <div class="line line--1"></div>
-                <div class="line line--2"></div>
-                <div class="line line--3"></div>
-            </div>
+        <div class="menu_block">
+            <a href="#"><img src="images/menu.png" alt=""></a>
+            <nav>
+                <div class="menu-btn">
+                    <div class="line line--1"></div>
+                    <div class="line line--2"></div>
+                    <div class="line line--3"></div>
+                </div>
 
-            <div class="nav-links">
-                <a href="" class="link">Home</a>
-                <a href="" class="link">Contact</a>
-                <a href="" class="link">Profile</a>
-                <a href="" class="link">About</a>
-            </div>
-        </nav>
+                <div class="nav-links">
+                    <a href="" class="link">Home</a>
+                    <a href="" class="link">Contact</a>
+                    <a href="" class="link">Blog</a>
+                    <a href="" class="link">About Us</a>
+                    <a href="" class="link">Project</a>
+                    <a href="" class="link">Work</a>
+                </div>
+            </nav>
+        </div>
     </div>
 </header>
 <section class="background_top">
@@ -163,8 +168,8 @@
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script>
-    $( function() {
-        $( "#dialog" ).dialog({
+    $(function () {
+        $("#dialog").dialog({
             autoOpen: false,
             show: {
                 effect: "blind",
@@ -176,10 +181,10 @@
             }
         });
 
-        $( "#opener" ).on( "click", function() {
-            $( "#dialog" ).dialog( "open" );
+        $("#opener").on("click", function () {
+            $("#dialog").dialog("open");
         });
-    } );
+    });
 </script>
 <script src="js/scripts.js"></script>
 </body>

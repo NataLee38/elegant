@@ -34,6 +34,7 @@
     header {
         background-color: rgba(42, 53, 59, 0.5);
         top: 0;
+        padding: 0;
     }
 
     .logo {
@@ -41,9 +42,10 @@
         opacity: 100%;
     }
 
-    .menu {
+    .menu_block img {
         display: none;
     }
+
 
     .background_top {
         padding-top: 65%;

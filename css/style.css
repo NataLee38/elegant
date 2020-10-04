@@ -8,7 +8,7 @@
 header {
     position: fixed;
     width: 100%;
-    top: 15px;
+    padding: 20px 0 0;
 }
 
 .wrapper2 {
@@ -46,12 +46,6 @@ header {
 .flexing {
     display: flex;
     justify-content: space-between;
-}
-
-.menu {
-    height: 12px;
-    display: inline-block;
-    margin-top: 10px;
 }
 
 .wrapper {
@@ -350,7 +344,7 @@ footer a {
     text-align: left;
 }
 
-.left_part img{
+.left_part img {
     width: 100%;
 }
 
@@ -580,32 +574,32 @@ footer a {
     height: 100%;
 }
 
-.owl-carousel{
+.owl-carousel {
     max-width: 665px;
 }
 
-.owl-carousel__block{
+.owl-carousel__block {
     height: 418px;
 }
 
-.owl-dots{
+.owl-dots {
     position: absolute;
     bottom: 40px;
     text-align: center;
     width: 100%;
 }
 
-.owl-dot span{
+.owl-dot span {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: black!important;
+    background-color: black !important;
     display: inline-block;
     margin-right: 10px;
     margin-left: 10px;
 }
 
-.owl-dot.active span{
+.owl-dot.active span {
     width: 30px;
     height: 30px;
 }
@@ -645,32 +639,32 @@ footer a {
     border: 1px solid #c0c0c0;
 }
 
-.social_icons a:hover{
+.social_icons a:hover {
     background-color: black;
 }
 
-.ui-dialog{
-    width: 100%!important;
-    max-width: 750px!important;
-    border: none!important;
+.ui-dialog {
+    width: 100% !important;
+    max-width: 750px !important;
+    border: none !important;
     border-radius: 0 0 10px 10px;
     padding: 0;
     background-color: #fbfbfb;
     text-align: center;
 }
 
-#dialog input{
+#dialog input {
     display: inline-block;
     height: 59px;
     border: 1px solid #d3d3d3;
     width: 100%;
 }
 
-#dialog button{
+#dialog button {
     display: block;
 }
 
-.ui-dialog .ui-dialog-titlebar{
+.ui-dialog .ui-dialog-titlebar {
     background-color: black;
     color: white;
     text-transform: uppercase;
@@ -679,27 +673,27 @@ footer a {
     padding: 38px 0 38px 50px;
 }
 
-.ui-button{
+.ui-button {
     display: none;
 }
 
-#dialog label{
+#dialog label {
     color: #363636;
     text-transform: uppercase;
     width: 180px;
     text-align: center;
 }
 
-.form_wrapper{
+.form_wrapper {
     max-width: 565px;
     margin: auto;
 }
 
-.email{
+.email {
     margin: 40px 0 40px;
 }
 
-#dialog button{
+#dialog button {
     width: 90%;
     margin-left: 5%;
     display: inline-block;
@@ -711,12 +705,12 @@ footer a {
     border-radius: 3px;
 }
 
-#dialog p{
+#dialog p {
     margin: 40px 0;
     font-size: 24px;
 }
 
-#dialog a{
+#dialog a {
     width: 90%;
     margin-left: 5%;
     background-color: #4c6cb1;
@@ -737,22 +731,25 @@ nav {
     z-index: 10;
     transform: translateX(0px);
     right: 0;
+    top: 0;
     height: 100vh;
-    width: 400px;
+    width: 100px;
     transition: all 800ms cubic-bezier(.8, 0, .33, 1);
-    border-radius: 0% 0% 100% 50%;
+    border-radius: 0;
 }
 
 nav.nav-open {
     transform: translateX(0px);
-    border-radius: 0% 0% 0% 0%;
+    border-radius: 0;
     background: rgba(255, 255, 255, 0.6);
+    width: 300px;
+    transition: 0.3s;
 }
 
 nav .menu-btn {
     position: absolute;
-    top: 10%;
-    right: 5%;
+    top: 23px;
+    right: 50px;
     padding: 0;
     width: 30px;
     cursor: pointer;
@@ -776,7 +773,7 @@ nav .menu-btn .line.line--1 {
 nav .menu-btn .line.line--1.line-cross {
     width: 30px;
     transform: rotate(45deg) translateY(10px);
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 nav .menu-btn .line.line--2 {
@@ -798,7 +795,7 @@ nav .menu-btn .line.line--3 {
 nav .menu-btn .line.line--3.line-cross {
     width: 30px;
     transform: rotate(-45deg) translateY(-10px);
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 nav .nav-links {
@@ -825,7 +822,7 @@ nav .nav-links .link {
     margin: 20px 0;
     text-decoration: none;
     font-family: sans-serif;
-    color: rgba(0,0,0,0.9);
+    color: rgba(0, 0, 0, 0.9);
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1.2rem;
@@ -836,16 +833,9 @@ nav .nav-links .link:hover {
     color: rgba(0, 0, 0, .5);
 }
 
-
-.inform{
+.menu_block img {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 2rem;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    text-shadow: 0 0 20px rgba(0,0,0,0.6);
+    top: 30px;
+    right: 100px;
+    z-index: 2;
 }
